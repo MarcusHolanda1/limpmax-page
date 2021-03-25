@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+    <table>
+        <tbody id="lista">
+            <tr class="item" id="item">
+                <td><input type="number" name="qtde[]" /></td>
+                <td>
+                    <select name="produto[]">
+                        <option value="0">Opcao 0</option>
+                        <option value="1">Opcao 1</option>
+                    </select>
+                </td>
+                <td><button onclick="remover(this)">x</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody id="lista">
+            <tr class="item" id="item">
+                <td><input type="number" name="qtde[]" /></td>
+                <td>
+                    <select name="produto[]">
+                        <option value="0">Opcao 0</option>
+                        <option value="1">Opcao 1</option>
+                    </select>
+                </td>
+                <td><button onclick="remover(this)">x</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody id="lista">
+            <tr class="item" id="item">
+                <td><input type="number" name="qtde[]" /></td>
+                <td>
+                    <select name="produto[]">
+                        <option value="0">Opcao 0</option>
+                        <option value="1">Opcao 1</option>
+                    </select>
+                </td>
+                <td><button onclick="remover(this)">x</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody id="lista">
+            <tr class="item" id="item">
+                <td><input type="number" name="qtde[]" /></td>
+                <td>
+                    <select name="produto[]">
+                        <option value="0">Opcao 0</option>
+                        <option value="1">Opcao 1</option>
+                    </select>
+                </td>
+                <td><button onclick="remover(this)">x</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="adicionar" onclick="adicionar()">Adicionar</button>
+    <script type="text/javascript">
+        var modelo = document.getElementsByClassName('item')[0].outerHTML;
+
+        function adicionar() {
+            document.getElementById('lista').insertAdjacentHTML('beforeend', modelo);
+        }
+
+        function remover(el) {
+            var tr = el.closest("tr");
+            if(document.getElementsByClassName("item").length > 1){
+                tr.outerHTML = '';
+            }
+        }
+    </script>
+</body>
+</html>
