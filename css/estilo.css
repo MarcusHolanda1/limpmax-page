@@ -3,6 +3,11 @@ html, body {
     overflow-x: hidden;
 }
 
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
 /*config nav*/
 .bg-topo{
     background-color: rgb(0, 0, 0);
@@ -50,6 +55,25 @@ html, body {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+
+.navbar{
+    background-color: rgb(247, 253, 255);
+}
+ 
+
+/*TESTE INNER*/
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
 /*slide*/
 
 /*Sobre a empresa*/
@@ -84,7 +108,7 @@ html, body {
 /*Beneficios*/
 
 .bg-beneficio{
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(245, 255, 255);
 }
 
 .benef-fatos{
@@ -96,9 +120,14 @@ html, body {
 /*COntato*/
 
 .icone-contato{
-    color: rgb(134, 255, 245);
+    color: rgb(116, 171, 216);
 
     
+}
+
+.text-contato{
+    font-size: 17px;
+    color: black;
 }
 
 .contatinho{
@@ -110,7 +139,7 @@ html, body {
 }
 
 .bg-contato{
-    background-color: rgb(230, 255, 251);
+    background-color: rgb(223, 255, 250);
 }
 
 /*Orçamentoo*/
@@ -143,6 +172,23 @@ html, body {
     display: block;
     margin-bottom: 8px;
     margin: 0 auto;
+}
+
+/*SOfá do metade sujo*/
+
+#sofameio{
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+}
+
+.fa {
+    color: rgb(255, 145, 0);
+
+}
+.garantia{
+    padding-top: 10px;
+
 }
 
 /*CUSTOM SELECT BOX*/ 

@@ -19,6 +19,7 @@
     <!--Personalizado css-->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 
@@ -31,11 +32,11 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index2.php">
+        <a class="navbar-brand" href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" target="_blank">
             <img src="img/logolimp.png" width="80" height="40" class="d-inline-block align-top" alt="">
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -45,13 +46,16 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#mainSlide" class="nav-link font-weight-bold text-dark scroll-page">Home</a>
-                </li>
-                <li class="nav-item">
                     <a href="#servico" class="nav-link font-weight-bold text-dark scroll-page">Serviço</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#produtos" class="nav-link font-weight-bold text-dark scroll-page">Produtos</a>
+                    <a href="#produtos" class="nav-link font-weight-bold text-dark scroll-page">Utensílios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#beneficios" class="nav-link font-weight-bold text-dark scroll-page">Benefícios</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato" class="nav-link font-weight-bold text-dark scroll-page">Contato</a>
                 </li>
                 <a href="#orcamento" class="btn btn-block btn-orcamento font-weight-bold text-dark">Fazer orçamento</a>
             </ul>
@@ -60,7 +64,8 @@
     </nav>
     <!--Slide-->
 
-    <div id="mainSlide" data-interval="2000" class="carousel slide" data-ride="carousel">
+    <h1 class="bemvindo text-center bg-bemvindo">Bem-vindo a Limpmax!</h1>
+    <div id="mainSlide" data-interval="1700" class="carousel slide bg-bemvindoo" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#mainSlide" data-slide-to="0" class="active"></li>
             <li data-target="#mainSlide" data-slide-to="1"></li>
@@ -68,13 +73,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img style="height: 600px; width: 700px;" class="d-block w-100" src="img/alo1.jpg" alt="First slide ">
+                <img class="d-block w-100" src="img/bmteste2.jpg" alt="First slide ">
             </div>
             <div class="carousel-item">
-                <img style="height: 600px; width: 700px;" class="d-block w-100" src="img/alo2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="img/bmteste3.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img style="height: 600px; width: 700px;" class="d-block w-100" src="img/alo33.jpg" alt="Third slide">
+                <img class="d-block w-100" src="img/bmteste2.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#mainSlide" role="button" data-slide="prev">
@@ -88,59 +93,57 @@
     </div>
 
     <!--Sobre a empresa-->
-    <div id="servico" class="container-fluid bg-servico">
-        <div class="mt-2 py-4">
-            <section class="container">
-                <header class="col-md-12">
-                    <h2 class="text-center ">Sobre o nosso serviço
-                        <span class="underline"></span>
-                    </h2>
-                </header>
-                <div class="row py-4">
-                    <div class="col-md-4">
-
-                        <div class="card border-info mb-3" style="width: 18rem;">
-                            <img class="card-img-top" src="img/flotad.jpg " alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Título do assunto</h5>
-                                <p class="card-text"> is simply dummy text of the printing and typesetting industry. </p>
-                            </div>
+    <section id="servico">
+        <div class="container">
+            <div class="title">
+                <h2>Como funciona nosso serviço?</h2>
+                <p>On the gym floor or in the pool. Find things you want to do, in the places you want to do them.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card  border-info text-center">
+                        <div class="inner">
+                            <img src="img/flotad.jpg" class="card-img-top">
                         </div>
-                    </div>
-                    <div class="col-md-4">
-
-                        <div class="card border-info mb-3" style="width: 18rem;">
-                            <img class="card-img-top" src="img/flotad.jpg" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Título do assunto</h5>
-                                <p class="card-text">is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-
-                        <div class="card border-info mb-3" style="width: 18rem;">
-                            <img class="card-img-top" src="img/flotad.jpg" alt="Imagem de capa do card">
-                            <div class="card-body">
-                                <h5 class="card-title">Título do assunto</h5>
-                                <p class="card-text">is simply dummy text of the printing and typesetting industry.</p>
-                            </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GYM FLOOR</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-4">
+                    <div class="card  border-info text-center">
+                        <div class="inner">
+                            <img src="img/flotad.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GYM FLOOR</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card  border-info text-center">
+                        <div class="inner">
+                            <img src="img/flotad.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GYM FLOOR</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <!--Cards com icons de produtos e utilitários-->
+    </section>
+    <!-- produtos e utilitários-->
     <div id="produtos" class="container-fluid bg-parallax">
         <div class="mt-2 py-4">
             <section class="container">
                 <header class="col-md-12">
-                    <h2 class="text-center text-light">Produtos e equipamentos utilizados em nosso serviço
-
-                    </h2>
+                    <h2 class="text-center text-light">Quais utensílios usamos?</h2>
                     <p class="text-center text-light">
-                        APPAPAPAPPAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAPAPAPPAPAAAAAAAAAAAAAAalsaçlçsçslaçlaslsalçasçlsaçlaçlaslçslaç
+                        
                     </p>
                 </header>
                 <div class="row py-4">
@@ -149,7 +152,7 @@
                             <div class="icon">
                                 <img src="iconic/cleaning.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos utilizamos flotador blalblalblalbla</h4>
+                                    <h4>Nos utilizamos um produto que tira ácaro etc</h4>
                                 </div>
                             </div>
                         </div>
@@ -159,7 +162,7 @@
                             <div class="icon">
                                 <img src="iconic/cleaning-staff-cor.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos entramos devidamente equipados na sua casa blalblalblalbla</h4>
+                                    <h4>Nos entramos devidamente equipados na sua casa</h4>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +172,7 @@
                             <div class="icon">
                                 <img src="iconic/vacuum-cleaner.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos utilizamos extratora blblalal blalblalblalbla</h4>
+                                    <h4>Nos utilizamos extratora que nao danifica</h4>
                                 </div>
                             </div>
                         </div>
@@ -179,45 +182,145 @@
         </div>
     </div>
 
-    <!--wfeffp-->
-
-    <section id="facilities">
-        <div class="container">
-            <div class="title">
-                <h1>Facilities</h1>
-                <p>On the gym floor or in the pool. Find things you want to do, in the places you want to do them.</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <img src="http://via.placeholder.com/1024x625" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">GYM FLOOR</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <!--Benefícios de contratar a Limpmax-->
+    <div id="beneficios" class="container-fluid bg-beneficio">
+        <div class="mt- py-4">
+            <section class="container-fluid">
+                <header class="col-md-12">
+                    <h2 class="text-center">Quais benefícios a Limpmax pode te propor?</h2>
+                </header>
+                <div class="row py-4">
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/stain.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p>Retiramos/reduzimos todas as manchas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/bad-breath.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p>Fique livre de alergias</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/quality.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p>Oferecemos 7 dias de garantia </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/helmetblue.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p>Trabalhamos com segurança</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/alarm.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p>Somos pontuais</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="benef-fatos">
+                            <div class="icon-beneficio">
+                                <img src="iconic/cleaning-spray1.svg" alt="produtos" class="icone" width="50px" height="50px">
+                                <div class="fatos-contador">
+                                    <p clas="text-center">Melhores produtos do mercado</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <img src="http://via.placeholder.com/1024x625" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">CYCLE STUDIO</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <img src="http://via.placeholder.com/1024x625" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">SPA</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </div>
+
+
+
+
+    </div>
+
+
+    <!--Sofá metade-->
+    <div class="estrelas text-center">
+        <h3 class="garantia">Garantia</h3>
+        <span class="fa fa-star checked" aria-hidden="true">
+            <span class="fa fa-star checked" aria-hidden="true">
+                <span class="fa fa-star checked" aria-hidden="true">
+                    <span class="fa fa-star checked" aria-hidden="true">
+                        <span class="fa fa-star checked" aria-hidden="true">
+    </div>
+    <div id="sofameio" class="container-fluid bg-sofameio text-center">
+        <h5>Oferecemos garantia de 7 dias para seu estofado, caso houver alguma infelicidade voltamos para refazer o serviço!</h5>
+
+
+        <img src="img/sofaedit.jpg" alt="Sofa" class="img-fluid sofametade">
+
+    </div>
+
+
+    <!--Contato-->
+    <div id="contato" class="container-fluid bg-contato">
+        <div class="mt-2 py-4">
+            <section class="container">
+                <header class="col-md-12">
+                    <h2 class="text-center">Como entrar em contato?</h2>
+                </header>
+                <div class="row py-4">
+                    <div class="col-md-4">
+                        <div class="contatinho">
+                            <div class="icone-contato">
+                                <a href="" target="_blank" class="icon1 fas fa-map-marker-alt"></a>
+                                <div class="text-contato">
+                                    <p>Não possuimos local de serviço, nós levamos nosso serviço até você!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contatinho">
+                            <div class="icone-contato" >
+                                <a href="https://api.whatsapp.com/send/?phone=5561996958056&text&app_absent=0" target="_blank" class="fab fa-whatsapp" ></a>
+                                <div class="text-contato">
+                                    <p>Nosso atendimento é feito pelo Whatsapp, converse com a gente por lá! <br><p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contatinho">
+                            <div class="icone-contato">
+                                <a href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" class="fab fa-instagram"  target="_blank"></a>
+                                <div class="text-contato">
+                                    <p>Nossa principal rede social é o Instagram, lá postamos todas novidades sobre o serviço.<br><p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
 
     <!--Orçamento php-->
@@ -757,7 +860,7 @@
         /*echo  "<h2> Seu orçamento é de $preco_total,00  R$</h2>";*/
         ?>
 
-        <div class="alert alert-primary" role="alert" id="result">
+        <div class="alert alert-primary text-center  text-center" role="alert" id="result">
             <?php
             echo  "<h2> Seu orçamento é de $preco_total,00  R$</h2>";
             ?>
@@ -767,13 +870,14 @@
 
 
 
+
     <!-- Footer-->
     <footer class="bg-rodape1 text-center">
         <div class="container p-4 pb-0">
             <section class="mb-4">
-                <a class="btn btn-outline-info btn-floating m-1" target="_blank" href="https://www.facebook.com/limpmaxbsbdf" role="button"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-info btn-floating m-1" href="https://www.facebook.com/limpmaxbsbdf" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
 
-                <a class="btn btn-outline-info btn-floating m-1" target="_blank" href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-info btn-floating m-1" href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
 
                 <a class="btn btn-outline-info btn-floating m-1" href="https://api.whatsapp.com/send/?phone=5561996958056&text&app_absent=0" target="_blank" role="button"><i class="fab fa-whatsapp"></i></a>
         </div>
@@ -782,7 +886,6 @@
             © 2021 Copyright: Marcus Holanda - All rights reserved
         </div>
     </footer>
-
 
 
 
