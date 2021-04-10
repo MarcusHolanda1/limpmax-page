@@ -73,13 +73,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="img/bmteste2.jpg" alt="First slide ">
+                <img class="d-block w-100" src="img/jogproduto2.jpg" alt="First slide ">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/bmteste3.jpg" alt="Second slide">
+                <img class="d-block w-100" src="img/jogproduto2.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="img/bmteste2.jpg" alt="Third slide">
+                <img class="d-block w-100" src="img/jogproduto2.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#mainSlide" role="button" data-slide="prev">
@@ -100,36 +100,48 @@
                 <p>On the gym floor or in the pool. Find things you want to do, in the places you want to do them.</p>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card  border-info text-center">
                         <div class="inner">
-                            <img src="img/flotad.jpg" class="card-img-top">
+                            <img src="img/gym.jpg" class="card-img-top">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">GYM FLOOR</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">ÁNALISE DO ESTOFADO</h5>
+                            <p class="card-text">Nessa primeira etapa, nossa equipe analisa qual tipo de limpeza é necessária em seu estofado, com os devidos cuidados ao estado que se encontra o mesmo.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card  border-info text-center">
                         <div class="inner">
-                            <img src="img/flotad.jpg" class="card-img-top">
+                            <img src="img/gym.jpg" class="card-img-top">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">GYM FLOOR</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">ASPIRAÇÃO E APLICAÇÃO DO PRODUTO</h5>
+                            <p class="card-text">Apenas no processo da aspiração, já é possível remover 50% das impurezas do estofado. Após isso é aplicado o produto Biodegradável e neutro com o poder antibacteriano.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="card  border-info text-center">
                         <div class="inner">
-                            <img src="img/flotad.jpg" class="card-img-top">
+                            <img src="img/gym.jpg" class="card-img-top">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">GYM FLOOR</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title">ESCOVAÇÃO AUTOMATIZADA</h5>
+                            <p class="card-text">Com as máquinas automáticas, é possível levarmos até você um serviço um serviço de alta qualidade, em menos tempo e com total eficiência. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card  border-info text-center">
+                        <div class="inner">
+                            <img src="img/gym.jpg" class="card-img-top">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">EXTRAÇÃO E FINALIZAÇÃO</h5>
+                            <p class="card-text">Nesta última etapa todas as impurezas do estofado são 
+                                extraidas com máquina extratora, assim é possível alcançar até 15cm a baixo da superfície do estofado, após isso todo o pelo do estofado é penteado para uma aparência uniforme e finalizando com um odorizador</p>
                         </div>
                     </div>
                 </div>
@@ -138,12 +150,13 @@
     </section>
     <!-- produtos e utilitários-->
     <div id="produtos" class="container-fluid bg-parallax">
+
         <div class="mt-2 py-4">
             <section class="container">
                 <header class="col-md-12">
                     <h2 class="text-center text-light">Quais utensílios usamos?</h2>
                     <p class="text-center text-light">
-                        
+
                     </p>
                 </header>
                 <div class="row py-4">
@@ -152,7 +165,7 @@
                             <div class="icon">
                                 <img src="iconic/cleaning.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos utilizamos um produto que tira ácaro etc</h4>
+                                    <h4>Nós utilizamos um produto que tira ácaro etc</h4>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +175,7 @@
                             <div class="icon">
                                 <img src="iconic/cleaning-staff-cor.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos entramos devidamente equipados na sua casa</h4>
+                                    <h4>Nós entramos devidamente equipados na sua casa</h4>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +185,7 @@
                             <div class="icon">
                                 <img src="iconic/vacuum-cleaner.svg" alt="produtos" class="icone">
                                 <div class="fatos-contador text-light">
-                                    <h4>Nos utilizamos extratora que nao danifica</h4>
+                                    <h4>Nós utilizamos extratora que nao danifica</h4>
                                 </div>
                             </div>
                         </div>
@@ -299,10 +312,11 @@
                     </div>
                     <div class="col-md-4">
                         <div class="contatinho">
-                            <div class="icone-contato" >
-                                <a href="https://api.whatsapp.com/send/?phone=5561996958056&text&app_absent=0" target="_blank" class="fab fa-whatsapp" ></a>
+                            <div class="icone-contato">
+                                <a href="https://api.whatsapp.com/send/?phone=5561996958056&text&app_absent=0" target="_blank" class="fab fa-whatsapp"></a>
                                 <div class="text-contato">
-                                    <p>Nosso atendimento é feito pelo Whatsapp, converse com a gente por lá! <br><p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
+                                    <p>Nosso atendimento é feito pelo Whatsapp, converse com a gente por lá! <br>
+                                    <p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
                                 </div>
                             </div>
                         </div>
@@ -310,9 +324,10 @@
                     <div class="col-md-4">
                         <div class="contatinho">
                             <div class="icone-contato">
-                                <a href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" class="fab fa-instagram"  target="_blank"></a>
+                                <a href="https://www.instagram.com/limpmaxbsb/?hl=pt-br" class="fab fa-instagram" target="_blank"></a>
                                 <div class="text-contato">
-                                    <p>Nossa principal rede social é o Instagram, lá postamos todas novidades sobre o serviço.<br><p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
+                                    <p>Nossa principal rede social é o Instagram, lá postamos todas novidades sobre o serviço.<br>
+                                    <p class="font-weight-bold">(Clique no ícone para acessar)</p></br></p>
                                 </div>
                             </div>
                         </div>
@@ -774,16 +789,11 @@
                     </div>
                 </div>
         </div>
-        <div class="row justify-content-center botao">
-            <div class="col-md-6 justify-content-center col-lg-7 d-flex align-items-center">
-                <button href="#result" type="submit" class="btn btn-primary">Calcular orçamento</button>
-            </div>
-            </form>
+
+        <div id="buttoncalc" class="container">
+            <button id="calculo" href="#result" type="submit" class="btn">CALCULAR ORÇAMENTO</button>
         </div>
-
-
-
-
+        
         <?php
 
 
@@ -865,6 +875,7 @@
             echo  "<h2> Seu orçamento é de $preco_total,00  R$</h2>";
             ?>
         </div>
+
 
     </section>
 
